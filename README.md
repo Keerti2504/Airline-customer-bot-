@@ -93,7 +93,6 @@ python backend/_train_model.py
 
 ## 📝 Notes
 
-- This chatbot operates completely **offline**; no internet connection is required for inference once the model is downloaded.
 - User interactions and feedback are stored locally in CSV files (`feedback.csv`) to allow for incremental retraining.
 - Automatic retraining is triggered after a predefined number of feedback entries (configurable), ensuring the model evolves with user corrections.
 - The **DistilBERT model file** (`model.safetensors`) is **not included** in this repository due to its large size.
