@@ -97,3 +97,4 @@ python backend/_train_model.py
 - Automatic retraining is triggered after a predefined number of feedback entries (configurable), ensuring the model evolves with user corrections.
 - The **DistilBERT model file** (`model.safetensors`) is **not included** in this repository due to its large size.
 - To run the application, you need to **download or generate the model** separately and place it in the `distilbert_model/` directory.
+- A demo video is also included of how the chatbot works :)
